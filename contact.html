@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cozy Corner Cafe - Contact</title>
+  <link rel="stylesheet" href="Website_Style.css" />
+</head>
+<body data-page="Contact">
+  <header>
+    <h1>Contact Us</h1>
+    <p>Have a question, suggestion, or just want to say hello?</p>
+    <nav>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>We’d Love to Hear From You</h2>
+      <p>
+        If you have feedback about your visit or want to ask about our menu,
+        feel free to send us a message. Small businesses grow through honest
+        customer feedback, so we always appreciate hearing from people who stop by.
+      </p>
+      <p>
+        You can also use the form below to let us know what kind of events or
+        specials you would like to see in the future.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Send a Message</h2>
+      <form id="contactForm">
+        <label for="visitorName">Name:</label>
+        <input type="text" id="visitorName" name="visitorName" required />
+
+        <label for="visitorMessage">Message:</label>
+        <textarea id="visitorMessage" name="visitorMessage" rows="5" required></textarea>
+
+        <button type="submit" class="track-btn">Send Message</button>
+        <button type="button" id="hoursButton" class="track-btn">View Cafe Hours</button>
+      </form>
+
+      <p id="contactMessage" class="message"></p>
+      <div id="hoursInfo" class="hours-box"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Cozy Corner Cafe</p>
+  </footer>
+
+  <script src="Website_Project.js"></script>
+</body>
+</html>
