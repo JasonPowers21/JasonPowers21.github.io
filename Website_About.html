@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cozy Corner Cafe - About</title>
+  <link rel="stylesheet" href="Website_Style.css" />
+</head>
+<body data-page="About">
+  <header>
+    <h1>About Our Cafe</h1>
+    <p>Learn a little more about who we are and what we offer.</p>
+    <nav>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="Website_About.html" class="nav-link">About</a>
+      <a href="Website_Contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Our Story</h2>
+      <p>
+        Cozy Corner Cafe started as a simple idea: create a place where people
+        could slow down for a while. Over time, it became a favorite local stop
+        for students, workers, and families looking for a comfortable atmosphere.
+      </p>
+      <p>
+        We care about consistency, friendly service, and making sure guests feel
+        welcome each time they visit. Even though the cafe is small, the goal is
+        to make every customer feel like they belong there.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Popular Menu Items</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Category</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>House Coffee</td>
+            <td>Drink</td>
+            <td>$3.00</td>
+          </tr>
+          <tr>
+            <td>Vanilla Latte</td>
+            <td>Drink</td>
+            <td>$4.75</td>
+          </tr>
+          <tr>
+            <td>Turkey Sandwich</td>
+            <td>Food</td>
+            <td>$7.50</td>
+          </tr>
+          <tr>
+            <td>Blueberry Muffin</td>
+            <td>Pastry</td>
+            <td>$3.25</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Vote for Your Favorite Item</h2>
+      <form id="voteForm">
+        <label for="favoriteItem">Favorite Menu Item:</label>
+        <select id="favoriteItem" name="favoriteItem" required>
+          <option value="">Choose one</option>
+          <option value="House Coffee">House Coffee</option>
+          <option value="Vanilla Latte">Vanilla Latte</option>
+          <option value="Turkey Sandwich">Turkey Sandwich</option>
+          <option value="Blueberry Muffin">Blueberry Muffin</option>
+        </select>
+
+        <button type="submit" class="track-btn">Submit Vote</button>
+      </form>
+      <p id="voteMessage" class="message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Cozy Corner Cafe</p>
+  </footer>
+
+  <script src="Website_Project.js"></script>
+</body>
+</html>
